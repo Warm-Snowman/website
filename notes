@@ -1,0 +1,27 @@
+Notes:
+
+>We always name the homepage of our website as index.html because by default webservers will look for index.html
+
+>HTML stands for Hyper Text Markup Language. It's a not a programming language rather a markup language to define
+how and what elements are used, structured etc.
+
+>In html we have elements and tags. Element is a container that holds contents and tags define the kind of element it is.
+We have normal element tags that have both an opening and closing tags and we have void tags that do not have a closing tag.
+Example <br>. Sometimes void tags are referenced as self closing tags such as <br/> but these are not used in the current html5 standards
+
+
+*Learn what are markup languages, Data serialization languages, JSON*
+> When we start an html document we always include <!DOCTYPE html> to tell the browser the version of html we're using
+the latest version of html at the time of writing this note is html5.
+
+>lang specifies the language of the text content in that element. This attribute is primarily used for improving accessibility of the webpage. 
+It allows assistive technologies, for example screen readers, to adapt according to the language and invoke correct pronunciation.
+
+>The head element is where we put meta information. We must not use any element here that displays content on the webpage
+We should always have the <meta> tag with the charset encoding of the webpage in the <head> element: <meta charset="UTF-8">.
+Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
+
+>We must use title element to display the title of our webpage. Lack of which would create a meaningless webpage. By default, the browser would display the name of the webpage
+if title element is not provided.
+
+>The body element is where the main contents lie.
