@@ -25,3 +25,107 @@ Setting the encoding is very important because it ensures that the webpage will 
 if title element is not provided.
 
 >The body element is where the main contents lie.
+
+>We use bold and strong tags to achieve slightly similar but different goals.
+1.<b> This is the bold tag. Its purely used for visual presentation and does not carry any semantic value.
+2.<strong> We use this tag to emphasise a word or a sentence. When we do so it's displayed as bold texts and 
+semantically, its used by screen readers that narrate it with emphasis ergo improving accessibility.
+Following are the tags that must be remembered:
+
+These tags communicate structure, importance, emphasis, or meaning to the browser, search engines, and assistive technologies.
+
+.>Text-level semantic tags
+
+<strong> — strong importance
+
+<em> — emphasized text
+
+<mark> — highlighted / marked text
+
+<abbr> — abbreviation
+
+<cite> — citation/title of work
+
+<dfn> — definition of a term
+
+<code> — code snippet
+
+<samp> — sample output
+
+<kbd> — keyboard input
+
+<var> — variable
+
+<time> — date/time
+
+<q> — short inline quotation
+
+<blockquote> — long quotation
+
+<small> — fine print / side comments
+
+<del> / <ins> — deleted/inserted text
+
+<address> — contact information
+
+.>Document structure + layout semantic tags
+
+<header>
+
+<footer>
+
+<nav>
+
+<main>
+
+<section>
+
+<article>
+
+<aside>
+
+<figure> / <figcaption>
+
+<summary> / <details>
+
+.>Other semantic elements
+
+<table>, <thead>, <tbody>, <tfoot>, <th> — tabular semantics
+
+<form>, <label>, <fieldset>, <legend> — form semantics
+
+.>❌ Visual / Presentational Tags (Styling Only)
+
+These tags do not add meaning—only appearance. They are often replaced by CSS in modern HTML.
+
+Inline presentational tags
+
+<b> — bold text (no meaning)
+
+<i> — italic text (no meaning)
+
+<u> — underline
+
+<s> — strikethrough (not semantic “deleted”)
+
+<big> — larger text
+
+<small> — (note: partially semantic but often used visually)
+
+<sub> — subscript
+
+<sup> — superscript
+
+<br> — line break
+
+<span> — generic inline container (no semantic meaning)
+
+.>Block-level presentational tags
+
+<center> — centered text (obsolete)
+
+<font> — font styling (obsolete)
+
+<marquee> — scrolling text (obsolete/plastic)
+
+<div> — generic block container (no semantic meaning unless given a role)
