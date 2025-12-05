@@ -129,3 +129,10 @@ Inline presentational tags
 <marquee> — scrolling text (obsolete/plastic)
 
 <div> — generic block container (no semantic meaning unless given a role)
+
+>We use lists to display an array of content. There are two types of list:
+.>Ordered list
+.>Unordered list
+Ordered lists are for a well ordered, indexed contents. We use <ol> to create an ordered list
+Unordered lists are for indexless contents where order doesnt really matter.
+We use <li> tag to create a list item.
